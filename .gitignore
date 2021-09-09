@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/CurrentWeatherTests/bin/Debug/net5.0
+/CurrentWeatherTests/obj
+/TEST/bin/Debug/net5.0
+/TEST/obj
+/TEST/appsettings.Development.json
