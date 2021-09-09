@@ -34,8 +34,6 @@ namespace CurrentWeatherTests
             HttpResponseMessage response = await _client.GetAsync($"?city={HttpUtility.UrlEncode(city)}&state={HttpUtility.UrlEncode(state)}");
             Assert.AreEqual(expectedToPass, response.IsSuccessStatusCode);
             Assert.AreEqual(expectedStatusCode, response.StatusCode);
-
-            Assert.Pass();
         }
     }
 }
